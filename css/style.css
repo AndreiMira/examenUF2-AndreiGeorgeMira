@@ -1,10 +1,18 @@
-html, body {
-    height: 100%;
-    max-width: 1200px;
-    margin: 2% auto;
-    padding: 0;
+html,
+body {
+	height: 100%;
+	max-width: 1200px;
+	margin: 2% auto;
+	padding: 0;
 }
 
 h1 {
-    font-size: 2em;
+	font-size: 2em;
+}
+
+#banner {
+	overflow: hidden;
+	padding: 15em 0em;
+	background: url(/img/banner.jpg) no-repeat center;
+	background-size: cover;
 }
