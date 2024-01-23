@@ -11,8 +11,34 @@ h1 {
 }
 
 #banner {
-	overflow: hidden;
 	padding: 15em 0em;
 	background: url(/img/banner.jpg) no-repeat center;
 	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#banner img {
+	height: 100px;
+	position: absolute;
+	bottom: 10px;
+	animation: moveCar 8s linear infinite;
+	max-width: 100%;
+}
+
+#banner img {
+	right: 100%;
+}
+
+@keyframes moveCar {
+	0% {
+		right: -40%;
+	}
+	50% {
+		right: 100%;
+	}
+	100% {
+		left: 100%;
+	}
 }
